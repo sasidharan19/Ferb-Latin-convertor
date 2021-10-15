@@ -23,6 +23,13 @@ body {
     display:block;
     padding:1rem;
     margin:auto;
+    background-image: url(./images/ferb3.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-emphasis-color: black;
+    background-color:
+    #F9FAFB;
 }
 
 .btn-container {
@@ -41,7 +48,7 @@ body {
     border-radius:11px;
     cursor: pointer;
     text-align: center;
-    margin-top:20px;
+    margin-top:19px;
 }
 
 #btn-click:hover {
@@ -54,12 +61,17 @@ body {
 
 #output-div{
     width: 450px;
-    height: 10vh;
+    height: 14vh;
     display:block;
     padding: 1rem;
     border:solid;
     margin: auto;
     font-weight: bold;
+    background-image: url(./images/phenaus\ and\ ferb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .text{
@@ -70,14 +82,14 @@ body {
     margin-block-end: 0em;
     margin-bottom: 10px;
     color:gray;
-    margin-top:28px;
+    margin-top:22px;
 }
 
 .about {
     text-align: center;
     background: radial-gradient(#fce4b3,limegreen);
-    padding:14px;
-    margin-top: 20px;
+    padding:5px;
+    margin-top: 19px;
     border-top-left-radius: 1rem;
     color:#111827;
     font-weight: bold;
