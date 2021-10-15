@@ -5,35 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferb Latin Convertor</title>
-    <style>
-        textarea{
-            width:80%;
-            height: 10vh;
-            display:block;
-            margin:1rem;
-            padding:1rem;
-            border:solid;
-        }
-
-        #output-div{
-            width: 80%;
-            height: 10vh;
-            display:block;
-            padding: 1rem;
-            border:solid;
-        }
-
-        #btn-click{
-            margin-bottom: 2rem;
-        }
-    </style>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    
 <body>
+
+    <!-- header -->
+    <div class="header">
+        <h1 class="header-text">Talk With Ferb</h1>
+    </div>
+    
+
+    <!-- Input box -->
+
     <textarea id="text-input" placeholder="Enter your text in English here and we will convert it to Ferb Latin."></textarea>
 
-    <button id="btn-click">Translate</button>
+    <!-- Button -->
+    
+    <button id="btn-click">Translate to Ferb Latin</button>
+    
+    <!--ouput box-->
 
+    <h2 class="text">Translation will come here 👇🏻 </h2>
     <div id="output-div"></div>
+
+    <!--Footer -->
+
+    <div class="about"> About
+        <h3>Are you a fan of Ferb ? During their routine summer fun, the two brothers Phineas and Ferb (in a Dinsney series) created their own language, Ferb Latin which quickly catches on. To speak it you must take the first letter of every word, move it to the end, and then say '-erb'.</h3>
+        <h3>Use this translator to convert your text from English to Ferb Latin.</h3>
+    </div>
 
 
 

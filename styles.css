@@ -1,0 +1,62 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    margin:0px;
+}
+
+:root {
+    --primary-color: #6D28D9;
+}
+.header {
+    background-color: var(--primary-color);
+    padding:2px;
+    border-bottom-right-radius: 1rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.header-text{
+    color:white;
+    font-weight: bold;
+    text-align:center;
+}
+
+#text-input {
+    width:450px;
+    height: 16vh;
+    display:block;
+    padding:1rem;
+    margin:auto;
+}
+
+#btn-click{
+    padding:10px 42px;
+    width:18rem;
+    background-color: var(--primary-color);
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    border-radius:11px;
+    margin:20px 450px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#output-div{
+    width: 450px;
+    height: 10vh;
+    display:block;
+    padding: 1rem;
+    border:solid;
+    margin: auto;
+}
+
+.text{
+    margin:0px 450px;
+    margin-bottom: 5px;
+}
+
+.about {
+    text-align: center;
+}
